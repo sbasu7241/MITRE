@@ -85,7 +85,25 @@
 			"showSubtechniques": false
 		},
 		{
+			"techniqueID": "T1110",
+			"tactic": "credential-access",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1059",
+			"tactic": "execution",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1059.001",
 			"tactic": "execution",
 			"color": "#e60d0d",
 			"comment": "",
@@ -114,6 +132,15 @@
 		{
 			"techniqueID": "T1136.002",
 			"tactic": "persistence",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1005",
+			"tactic": "collection",
 			"color": "#e60d0d",
 			"comment": "",
 			"enabled": true,
@@ -166,6 +193,15 @@
 			"showSubtechniques": false
 		},
 		{
+			"techniqueID": "T1083",
+			"tactic": "discovery",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1592",
 			"tactic": "reconnaissance",
 			"color": "#e60d0d",
@@ -184,6 +220,33 @@
 			"showSubtechniques": false
 		},
 		{
+			"techniqueID": "T1589",
+			"tactic": "reconnaissance",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1590",
+			"tactic": "reconnaissance",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1070",
+			"tactic": "defense-evasion",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1036",
 			"tactic": "defense-evasion",
 			"color": "#e60d0d",
@@ -195,6 +258,15 @@
 		{
 			"techniqueID": "T1036.005",
 			"tactic": "defense-evasion",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1046",
+			"tactic": "discovery",
 			"color": "#e60d0d",
 			"comment": "",
 			"enabled": true,
@@ -222,6 +294,15 @@
 		{
 			"techniqueID": "T1003.003",
 			"tactic": "credential-access",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027",
+			"tactic": "defense-evasion",
 			"color": "#e60d0d",
 			"comment": "",
 			"enabled": true,
