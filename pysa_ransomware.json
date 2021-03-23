@@ -40,15 +40,6 @@
 			"showSubtechniques": false
 		},
 		{
-			"techniqueID": "T1059",
-			"tactic": "execution",
-			"color": "#e60d0d",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": true
-		},
-		{
 			"techniqueID": "T1486",
 			"tactic": "impact",
 			"color": "#e60d0d",
@@ -159,20 +150,11 @@
 		{
 			"techniqueID": "T1569",
 			"tactic": "execution",
-			"color": "#e60d0d",
+			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": true
-		},
-		{
-			"techniqueID": "T1569.002",
-			"tactic": "execution",
-			"color": "#e60d0d",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1547",
